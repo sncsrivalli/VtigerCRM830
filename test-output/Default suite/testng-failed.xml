@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngImplementation.CreateAndDuplicateLeadTest">
+      <class name="practice.MavenCMDParameters2Test">
         <methods>
-          <include name="classTeardown"/>
-          <include name="classSetup"/>
-          <include name="methodTeardown"/>
-          <include name="methodSetup"/>
-          <include name="createAndDuplicateLeadTest"/>
+          <include name="mvnCMDTest"/>
         </methods>
-      </class> <!-- testngImplementation.CreateAndDuplicateLeadTest -->
+      </class> <!-- practice.MavenCMDParameters2Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
